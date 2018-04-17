@@ -18,8 +18,8 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/devdavidkarlsson/ladon/compiler"
 	"github.com/hashicorp/golang-lru"
-	"github.com/ory/ladon/compiler"
 	"github.com/pkg/errors"
 )
 

@@ -18,7 +18,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/ory/ladon"
+	"github.com/devdavidkarlsson/ladon"
 )
 
 // This test is skipped because the method was deprecated

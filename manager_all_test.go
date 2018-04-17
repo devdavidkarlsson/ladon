@@ -21,10 +21,10 @@ import (
 	"sync"
 	"testing"
 
-	. "github.com/ory/ladon"
-	"github.com/ory/ladon/integration"
-	. "github.com/ory/ladon/manager/memory"
-	. "github.com/ory/ladon/manager/sql"
+	. "github.com/devdavidkarlsson/ladon"
+	"github.com/devdavidkarlsson/ladon/integration"
+	"github.com/devdavidkarlsson/ladon/manager/memory"
+	. "github.com/devdavidkarlsson/ladon/manager/sql"
 )
 
 var managers = map[string]Manager{}
@@ -45,7 +45,7 @@ func TestMain(m *testing.M) {
 
 func connectMEM(wg *sync.WaitGroup) {
 	defer wg.Done()
-	managers["memory"] = NewMemoryManager()
+	managers["memory"] = memory.NewMemoryManager()
 }
 
 func connectPG(wg *sync.WaitGroup) {

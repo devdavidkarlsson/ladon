@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"testing"
 
+	. "github.com/devdavidkarlsson/ladon"
 	"github.com/golang/mock/gomock"
-	. "github.com/ory/ladon"
 	"github.com/pkg/errors"
 	"github.com/stretchr/testify/assert"
 )
