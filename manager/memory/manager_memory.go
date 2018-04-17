@@ -17,7 +17,7 @@ package memory
 import (
 	"sync"
 
-	. "github.com/ory/ladon"
+	. "github.com/devdavidkarlsson/ladon"
 	"github.com/pkg/errors"
 )
 

@@ -20,10 +20,10 @@ import (
 	"fmt"
 	"log"
 
+	"github.com/devdavidkarlsson/ladon"
+	. "github.com/devdavidkarlsson/ladon"
+	"github.com/devdavidkarlsson/ladon/compiler"
 	"github.com/jmoiron/sqlx"
-	"github.com/ory/ladon"
-	. "github.com/ory/ladon"
-	"github.com/ory/ladon/compiler"
 	"github.com/pkg/errors"
 )
 

@@ -5,8 +5,8 @@ import (
 	"log"
 	"testing"
 
-	. "github.com/ory/ladon"
-	. "github.com/ory/ladon/manager/memory"
+	. "github.com/devdavidkarlsson/ladon"
+	. "github.com/devdavidkarlsson/ladon/manager/memory"
 	"github.com/stretchr/testify/assert"
 )
 

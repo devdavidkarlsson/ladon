@@ -19,8 +19,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/ory/ladon"
-	"github.com/ory/ladon/manager/memory"
+	"github.com/devdavidkarlsson/ladon"
+	"github.com/devdavidkarlsson/ladon/manager/memory"
 	"github.com/pborman/uuid"
 	"github.com/pkg/errors"
 )

@@ -8,8 +8,7 @@
 //
 // Unless required by applicable law or agreed to in writing, software
 // distributed under the License is distributed on an "AS IS" BASIS,
-// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-// See the License for the specific language governing permissions and
+// WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.// See the License for the specific language governing permissions and
 // limitations under the License.
 
 package ladon
@@ -281,7 +280,7 @@ func testEq(a, b []string) error {
 		}
 
 		if !found {
-			return errors.Errorf("No match found: %s from %v in %v", i, a, b)
+			return errors.Errorf("No match found: %d from %v in %v", i, a, b)
 		}
 	}
 

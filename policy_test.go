@@ -19,7 +19,7 @@ import (
 	"fmt"
 	"testing"
 
-	. "github.com/ory/ladon"
+	. "github.com/devdavidkarlsson/ladon"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
